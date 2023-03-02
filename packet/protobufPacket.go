@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/lisyaoran51/GoGameServerTest/logger"
-	"github.com/lisyaoran51/GoGameServerTest/protobuf/game"
+	"github.com/simple-casual-game/server-gameFlipCoin/logger"
+	"github.com/simple-casual-game/server-gameFlipCoin/protobuf/game"
 	"google.golang.org/protobuf/proto"
 )
 

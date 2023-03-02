@@ -3,7 +3,7 @@ syntax = "proto3";
 
 package gate;
 
-option go_package = "github.com/lisyaoran51/GoGameServerTest/protobuf/gate"; 
+option go_package = "github.com/simple-casual-game/server-gameFlipCoin/protobuf/gate"; 
 
 //// ClientConnectReq 玩家連線Gate協議
 message ClientConnectReq {

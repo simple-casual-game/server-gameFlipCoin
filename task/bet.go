@@ -5,11 +5,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/lisyaoran51/GoGameServerTest/dao/clientDao"
-	"github.com/lisyaoran51/GoGameServerTest/logger"
-	"github.com/lisyaoran51/GoGameServerTest/protobuf/flipCoin"
-	"github.com/lisyaoran51/GoGameServerTest/protobuf/game"
 	"github.com/shopspring/decimal"
+	"github.com/simple-casual-game/server-gameFlipCoin/dao/clientDao"
+	"github.com/simple-casual-game/server-gameFlipCoin/logger"
+	"github.com/simple-casual-game/server-gameFlipCoin/protobuf/flipCoin"
+	"github.com/simple-casual-game/server-gameFlipCoin/protobuf/game"
 )
 
 func Bet(ip uint32, username string, sessionID uint32, reqHeader *flipCoin.BetReq) (*game.GameMessage, error) {

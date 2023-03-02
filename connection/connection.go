@@ -8,8 +8,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/lisyaoran51/GoGameServerTest/logger"
-	"github.com/lisyaoran51/GoGameServerTest/packet"
+	"github.com/simple-casual-game/server-gameFlipCoin/logger"
+	"github.com/simple-casual-game/server-gameFlipCoin/packet"
 )
 
 const (

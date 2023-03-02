@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package flipCoin;
 
-option go_package = "github.com/lisyaoran51/GoGameServerTest/protobuf/flipCoin"; 
+option go_package = "github.com/simple-casual-game/server-gameFlipCoin/protobuf/flipCoin"; 
 
 // 共通標頭檔
 // 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/lisyaoran51/GoGameServerTest/connection"
-	"github.com/lisyaoran51/GoGameServerTest/global"
+	"github.com/simple-casual-game/server-gameFlipCoin/connection"
+	"github.com/simple-casual-game/server-gameFlipCoin/global"
 )
 
 func main() {

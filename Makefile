@@ -4,7 +4,7 @@ proto:
 	@for file in `ls ./protobuf/`; do \
 		protoc --go_out=. --go-grpc_out=. --go-grpc_opt=require_unimplemented_servers=false  --proto_path=./protobuf ./protobuf/$${file}/*.proto; \
 	done ;
-	cp -r github.com/lisyaoran51/GoGameServerTest/protobuf/* ./protobuf/
+	cp -r github.com/simple-casual-game/server-gameFlipCoin/protobuf/* ./protobuf/
 	rm -r github.com
 
 
@@ -19,7 +19,7 @@ deprecated:
 	protoc -I=. --go_out=. protobuf/gate_game.proto
 	protoc -I=. --go_out=plugins=grpc:. common.proto
 
-	cp -r github.com/lisyaoran51/GoGameServerTest/protobuf/* ./protobuf/
+	cp -r github.com/simple-casual-game/server-gameFlipCoin/protobuf/* ./protobuf/
 	rm -r github.com
 
 	@for file in `ls ./protobuf/`; do \

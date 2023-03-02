@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/lisyaoran51/GoGameServerTest/protobuf"
-	"github.com/lisyaoran51/GoGameServerTest/protobuf/diamonds"
+	"github.com/simple-casual-game/server-gameFlipCoin/protobuf"
+	"github.com/simple-casual-game/server-gameFlipCoin/protobuf/diamonds"
 	"google.golang.org/protobuf/proto"
 )
 

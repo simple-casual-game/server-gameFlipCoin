@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package game;
 
-option go_package = "github.com/lisyaoran51/GoGameServerTest/protobuf/game"; 
+option go_package = "github.com/simple-casual-game/server-gameFlipCoin/protobuf/game"; 
 
 import "flipCoin/flipCoin.proto"; // 遊戲端
 import "gate/gate.proto"; // gate端

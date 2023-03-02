@@ -7,8 +7,8 @@
 package game
 
 import (
-	flipCoin "github.com/lisyaoran51/GoGameServerTest/protobuf/flipCoin"
-	gate "github.com/lisyaoran51/GoGameServerTest/protobuf/gate"
+	flipCoin "github.com/simple-casual-game/server-gameFlipCoin/protobuf/flipCoin"
+	gate "github.com/simple-casual-game/server-gameFlipCoin/protobuf/gate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

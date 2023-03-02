@@ -6,7 +6,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/lisyaoran51/GoGameServerTest/logger"
+	"github.com/simple-casual-game/server-gameFlipCoin/logger"
 )
 
 func GetPacker() *Packer {

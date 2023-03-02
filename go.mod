@@ -1,4 +1,4 @@
-module github.com/lisyaoran51/GoGameServerTest
+module github.com/simple-casual-game/server-gameFlipCoin
 
 go 1.19
 

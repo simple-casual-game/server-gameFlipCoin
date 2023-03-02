@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lisyaoran51/GoGameServerTest/dao/clientDao"
-	"github.com/lisyaoran51/GoGameServerTest/logger"
-	"github.com/lisyaoran51/GoGameServerTest/packet"
-	"github.com/lisyaoran51/GoGameServerTest/protobuf/flipCoin"
-	"github.com/lisyaoran51/GoGameServerTest/protobuf/game"
-	"github.com/lisyaoran51/GoGameServerTest/task"
+	"github.com/simple-casual-game/server-gameFlipCoin/dao/clientDao"
+	"github.com/simple-casual-game/server-gameFlipCoin/logger"
+	"github.com/simple-casual-game/server-gameFlipCoin/packet"
+	"github.com/simple-casual-game/server-gameFlipCoin/protobuf/flipCoin"
+	"github.com/simple-casual-game/server-gameFlipCoin/protobuf/game"
+	"github.com/simple-casual-game/server-gameFlipCoin/task"
 )
 
 func NewVirtualSession(c *Connection, clientID uint32, ip uint32) *VirtualSession {
