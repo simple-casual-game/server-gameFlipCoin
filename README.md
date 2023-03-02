@@ -4,16 +4,17 @@
 ---
 
 ## 介紹
-這是一個使用tcp連線的博奕遊戲伺服器，遊戲規則為翻硬幣，有50%機率贏或輸，贏的話獲得2倍賭注，輸的話就歸零
+這是一個使用tcp連線的博奕遊戲伺服器，用來練習tcp連線遊戲伺服器的開發
+遊戲規則為翻硬幣，有50%機率贏或輸，贏的話獲得2倍賭注，輸的話就歸零
 
 ## packet格式
 所有server通過tcp連線時，皆使用共同的packet格式。
 
 ```
-	command  uint32
-	sequence uint32
-	size     uint32
-    body     自訂
+command  uint32
+sequence uint32
+size     uint32
+body     自訂
 ```
 
 ## 未來方向
