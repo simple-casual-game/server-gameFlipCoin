@@ -6,7 +6,7 @@ import (
 	"unsafe"
 )
 
-const ClientEnterReqCommand Command = 0x81000001
+const ClientEnterReqCommand Command = 0x00010000
 
 func init() {
 	mainPacker.Register(ClientEnterReqCommand, func(sequence uint32, body []byte) Packet {

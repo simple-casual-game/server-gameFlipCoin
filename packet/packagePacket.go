@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 )
 
-const PackageCommand Command = 0x80000000
+const PackageCommand Command = 0x00020000
 
 func init() {
 	mainPacker.Register(PackageCommand, func(sequence uint32, body []byte) Packet {

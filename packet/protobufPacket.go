@@ -10,7 +10,7 @@ import (
 	"google.golang.org/protobuf/proto"
 )
 
-const ProtobufCommand Command = 0x00000008
+const ProtobufCommand Command = 0x00030000
 
 func init() {
 	mainPacker.Register(ProtobufCommand, func(sequence uint32, body []byte) Packet {
